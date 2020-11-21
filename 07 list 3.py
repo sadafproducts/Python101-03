@@ -26,3 +26,31 @@ print(id(myBag3)) # This id is different => The orginal list did NOT changed
 print(myBag3)
 
 
+
+
+# IMportant
+
+name = "hassan"
+#BAD
+print("length is", len(name))
+msg = "length is", len(name)
+print(msg) #NOT WHAT WE WANTED!
+
+#GOOD
+length = len(name)
+msg = "length is " + str(length)
+print(msg)
+
+
+
+#EVEN BETTER
+#We can also nest function calls:
+print("length is " + str(len(name)))
+#The order in which these are invoked are in to out...
+#len(name) is first which returns a number.
+#this number is passed to str which converts it to a string
+#this string is then concatenated with the string on the left
+#this final string is then passed to print
+
+#That's the end of your introduction to strings!
+
