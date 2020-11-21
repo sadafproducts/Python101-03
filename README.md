@@ -8,6 +8,6 @@ Markdown Cheatsheet
 
 ### Python.org
 [Naming Rules](https://www.python.org/dev/peps/pep-0008/#function-and-variable-names "Naming Rules")
-[Keywords](#https://docs.python.org/3/reference/lexical_analysis.html#keywords)
+[Keywords](#https://docs.python.org/3/reference/lexical_analysis.html#keywords "Key Words List")
 
 
