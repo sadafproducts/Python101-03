@@ -3,8 +3,8 @@
 
 [README Markdown Guide](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-
-
+## Completed reading to the end of 
+https://github.com/CalebCurry/python/blob/master/beginner_python/06-loop-basics.py
 
 
 ## Read More
@@ -21,6 +21,7 @@
 [math](https://docs.python.org/3/library/math.html)
 
 [List form range](https://docs.python.org/3/library/stdtypes.html#list)
+
 
 ## Tips
 1. skip newline using \ (without it, it would go down a line each line)
