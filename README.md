@@ -1,5 +1,11 @@
 # Python 101-03 Collection
 
+There are two ways you can get the list of installed packages on python.
+Using help function. You can use help function in python to get the list of modules installed. Get into python prompt and type the following command. help("modules") ...
+using python-pip. sudo apt-get install python-pip. pip freeze.
+3rd way: use pip3 list
+
+
 ## Review
 ============== 1 ==============
 
@@ -48,15 +54,19 @@
 
 ============== 7 ==============
 
-    open(path, "a")                         # Create and open file for appending
-    open(path, "w")                         # Create and open file for overwriting 
-    open(path, "wb")                        # Write binary 
-    f = open("myFile.txt", "r")             # Open, a r rb rt w wb wt x
+    open()
+    f = open()
+    f.read()
+    f.read(n)
+    f.readline()
     print(f.read())
-    write()
-    close()
+    f.write()
+    f.close()
     os.remove()
+    with
+    join()
 
+============== 8 ==============    
 
 ## Read More
 ### Python.org
