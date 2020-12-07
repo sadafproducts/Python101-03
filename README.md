@@ -2,47 +2,47 @@
 
 ## Review
 1 ===================================================================================
-open()                                  # Create file
-import os                               # To use rename(), mkdir(), ...
-r"mystring"                             # Put r for raw string to ignore \ operators
-path + r'\' + filename                  # Put r for raw string to ignore \ operators
-path + '\\' + filename                  # Escape the backslashes
-os.rename()                             # Rename path, filename, extension
-os.mkdir()                              # Make folder
-os.rmdir()                              # Remove folder; Can remove only empty folder
-os.remove()                             # Remove file
-os.removedirs()                         # Remove folders AND the current empty folder 
+    open()                                  # Create file
+    import os                               # To use rename(), mkdir(), ...
+    r"mystring"                             # Put r for raw string to ignore \ operators
+    path + r'\' + filename                  # Put r for raw string to ignore \ operators
+    path + '\\' + filename                  # Escape the backslashes
+    os.rename()                             # Rename path, filename, extension
+    os.mkdir()                              # Make folder
+    os.rmdir()                              # Remove folder; Can remove only empty folder
+    os.remove()                             # Remove file
+    os.removedirs()                         # Remove folders AND the current empty folder 
 2 ===================================================================================
-print(str)
-print(str + str)
-print(str, int, str)
-for i in range(n):
-str(int)
-int(str)
+    print(str)
+    print(str + str)
+    print(str, int, str)
+    for i in range(n):
+    str(int)
+    int(str)
 3 ===================================================================================
-os.listdir()
-for item in items:
-for itme in os.listdir():
-filePath.endswith('.pdf')
-os.path.splitext(myfilename)[0]         # returns the filename
-os.path.splitext(myfilename)[1]         # returns the .extension
+    os.listdir()
+    for item in items:
+    for itme in os.listdir():
+    filePath.endswith('.pdf')
+    os.path.splitext(myfilename)[0]         # returns the filename
+    os.path.splitext(myfilename)[1]         # returns the .extension
 4 ===================================================================================
-os.remove()                             # Remove file
+    os.remove()                             # Remove file
 5 ===================================================================================
-f.write()                               # write to file
-os.path.exists(myFolderPath)            # if a file exists
-if not os.path.exists(myFolderPath):    # without last \\
+    f.write()                               # write to file
+    os.path.exists(myFolderPath)            # if a file exists
+    if not os.path.exists(myFolderPath):    # without last \\
 6 ===================================================================================
-str2 = str1 + str(int(myStrAge) + 100)  # adding 100 to a string number
+    str2 = str1 + str(int(myStrAge) + 100)  # adding 100 to a string number
 7 ===================================================================================
-open(path, "a")                         # Create and open file for appending
-open(path, "w")                         # Create and open file for overwriting 
-open(path, "wb")                        # Write binary 
-f = open("myFile.txt", "r")             # Open, a r rb rt w wb wt x
-print(f.read())
-write()
-close()
-os.remove()
+    open(path, "a")                         # Create and open file for appending
+    open(path, "w")                         # Create and open file for overwriting 
+    open(path, "wb")                        # Write binary 
+    f = open("myFile.txt", "r")             # Open, a r rb rt w wb wt x
+    print(f.read())
+    write()
+    close()
+    os.remove()
 
 
 ## Read More
