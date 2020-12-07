@@ -6,7 +6,9 @@ print(weekdays)
 
 # oops I forgot Sunday. This is the way we add it
 
-weekdays.append('Sunday')
+weekdays.append(
+    
+)
 
 print(weekdays)
 
