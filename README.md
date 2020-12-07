@@ -88,11 +88,11 @@ print(coffee)
 
 #This loop runs 10 times
 
-for i in range(10):
+    for i in range(10):
 
-    print("loading...", end= " ")
+        print("loading...", end= " ")
 
-print()
+    print()
 
 
 5. #We can count 1-10 instead of 0-9 if desired:
