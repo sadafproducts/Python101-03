@@ -1,7 +1,7 @@
 # Python 101-03 Collection
 
 ## Review
-#1 ===================================================================================
+============== 1 ==============
 
     open()                                  # Create file
     import os                               # To use rename(), mkdir(), ...
@@ -14,7 +14,7 @@
     os.remove()                             # Remove file
     os.removedirs()                         # Remove folders AND the current empty folder 
 
-2 ===================================================================================
+============== 2 ==============
 
     print(str)
     print(str + str)
@@ -22,7 +22,8 @@
     for i in range(n):
     str(int)
     int(str)
-3 ===================================================================================
+
+============== 3 ==============
 
     os.listdir()
     for item in items:
@@ -31,21 +32,21 @@
     os.path.splitext(myfilename)[0]         # returns the filename
     os.path.splitext(myfilename)[1]         # returns the .extension
 
-4 ===================================================================================
+============== 4 ==============
 
     os.remove()                             # Remove file
 
-5 ===================================================================================
+============== 5 ==============
 
     f.write()                               # write to file
     os.path.exists(myFolderPath)            # if a file exists
     if not os.path.exists(myFolderPath):    # without last \\
 
-6 ===================================================================================
+============== 6 ==============
 
     str2 = str1 + str(int(myStrAge) + 100)  # adding 100 to a string number
 
-7 ===================================================================================
+============== 7 ==============
 
     open(path, "a")                         # Create and open file for appending
     open(path, "w")                         # Create and open file for overwriting 
